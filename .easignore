@@ -1,0 +1,10 @@
+node_modules/
+.expo/
+.git/
+.env
+.env.*
+credentials.json
+*.jks
+*.keystore
+*.db
+*.sqlite*
