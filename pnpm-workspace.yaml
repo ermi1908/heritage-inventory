@@ -1,0 +1,18 @@
+packages: ['.']
+minimumReleaseAge: 1440
+
+minimumReleaseAgeExclude:
+  # SDK 57's compatibility map requires this Expo-maintained patch.
+  - 'expo-crypto@57.0.4'
+  - 'expo-sharing@57.0.23'
+  # Exclude @replit scoped packages from the minimum release age check.
+  # These are published by Replit and trusted — the supply-chain attack vector
+  # this setting guards against does not apply to our own packages.
+  - '@replit/*'
+  - stripe-replit-sync
+
+
+autoInstallPeers: false
+onlyBuiltDependencies:
+  - esbuild
+  - unrs-resolver

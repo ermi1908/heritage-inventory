@@ -1,0 +1,50 @@
+{
+  "name": "heritage-inventory-android",
+  "version": "2.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "packageManager": "pnpm@10.26.1",
+  "scripts": {
+    "start": "expo start",
+    "typecheck": "tsc --noEmit",
+    "eas-build-post-install": "node scripts/verify-bundle.mjs"
+  },
+  "dependencies": {
+    "@expo-google-fonts/inter": "0.4.2",
+    "@expo/vector-icons": "15.1.1",
+    "@tanstack/react-query": "5.102.8",
+    "expo": "57.0.27",
+    "expo-constants": "57.0.21",
+    "expo-crypto": "57.0.4",
+    "expo-document-picker": "57.0.3",
+    "expo-file-system": "57.0.7",
+    "expo-font": "57.0.4",
+    "expo-image-picker": "57.0.20",
+    "expo-intent-launcher": "57.0.1",
+    "expo-linking": "57.0.12",
+    "expo-router": "57.0.25",
+    "expo-sharing": "57.0.23",
+    "expo-splash-screen": "57.0.9",
+    "expo-sqlite": "57.0.4",
+    "expo-status-bar": "57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-gesture-handler": "2.32.0",
+    "react-native-keyboard-controller": "1.21.9",
+    "react-native-reanimated": "4.5.1",
+    "react-native-safe-area-context": "5.7.0",
+    "react-native-screens": "4.26.2",
+    "react-native-web": "0.21.4",
+    "react-native-webview": "13.16.1",
+    "react-native-worklets": "0.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.29.7",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "@react-native/metro-config": "0.86.3",
+    "babel-plugin-react-compiler": "19.0.0-beta-ebf51a3-20250411",
+    "typescript": "6.0.3"
+  }
+}
